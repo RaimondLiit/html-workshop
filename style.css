@@ -5,11 +5,15 @@ body {
     flex-direction: column;
     gap: 3em; /* vahe elementide vahel */
     align-items: center;
+    color: crimson;
+    background-color: darkmagenta ;
+    font-family: "Comic Sans MS" ;
 }
 /* #-ga viitame elemendile, millel on selline id */
 #photo {
-    max-width: 25em;
-    max-height: 30em;
+    max-width: 2500em;
+    max-height: 3000em;
+    border-radius: 30% 40% 30% 40%;
 }
 /* .-ga viitame elemenditele, millel on selline class */
 .container {
@@ -24,6 +28,14 @@ body {
     max-height: 25em;
     overflow-x: hidden;
     overflow-y: auto;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+
+
+color: deeppink;
+text-decoration: underline;
 }
 
 .card {
@@ -32,11 +44,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #D9D9D9;
+    background-color:#cc99ff;
     padding: 5em 1.5em 1.5em;
 }
 .icon {
-    max-width: 10em;
+    max-width: 15em;
 }
 iframe {
     width: 50em;
@@ -45,9 +57,9 @@ iframe {
 
 button {
     width: 20em;
-    border: none;
-    background-color: #D9D9D9;
-    padding: 2em;
+    border: firebrick;
+    background-color: red;
+    padding: 20em;
 }
 
 button:hover {
